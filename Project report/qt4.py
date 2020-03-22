@@ -52,7 +52,7 @@ pT = solutions[:,3]
 def draw_phase_space (args):
     k_mLb, k_mTb, k_mLa, k_mTa, theta_L, theta_T, n_L, n_T, gamma_mL, gamma_mT, k_pT, k_pL, gamma_pL, gamma_pT = args
 
-    #Part 1: draw LacI/TetR vector field
+    ## Part 1: draw LacI/TetR vector field
     pL_vector = np.linspace(0,2000,30)
     pT_vector = np.linspace(0,2000,30) 
     LacI_vector, TetR_vector = np.meshgrid(pL_vector, pT_vector)
